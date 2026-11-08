@@ -1,0 +1,1403 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cfe51804-acdd-41f6-915b-3e54f8587f18" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Olist DB</ID>
+  <Name>Olist DB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="28" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="25439" scrolltop="-16862" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="35" x="15092" y="10753" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="olist_geolocation_dataset" left="26654" top="1874" logicalid="14" controlid="1" masterid="0" hint1="0" hint2="0" width="4890" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00001a1300006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_olist_geolocation_dataset" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="olist_order_dataset" left="34652" top="0" logicalid="15" controlid="2" masterid="0" hint1="0" hint2="0" width="5355" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000eb140000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_olist_order_dataset" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="olist_order_reviews_dataset" left="34497" top="-7229" logicalid="16" controlid="3" masterid="0" hint1="0" hint2="0" width="4678" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000461200003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_olist_order_reviews_dataset" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="olist_sellers_dataset" left="26924" top="-2177" logicalid="17" controlid="4" masterid="0" hint1="0" hint2="0" width="4064" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e00f000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_olist_sellers_dataset" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="olist_products_dataset" left="48631" top="2843" logicalid="18" controlid="5" masterid="0" hint1="0" hint2="0" width="4720" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000701200000a100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_olist_products_dataset" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="olist_order_items_dataset" left="40722" top="5686" logicalid="19" controlid="6" masterid="0" hint1="0" hint2="0" width="3641" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000390e00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_olist_order_items_dataset" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="olist_order_payments_dataset" left="49094" top="-1694" logicalid="20" controlid="7" masterid="0" hint1="0" hint2="0" width="3958" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000760f00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_olist_order_payments_dataset" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="olist_customers_dataset" left="42584" top="-4537" logicalid="21" controlid="8" masterid="0" hint1="0" hint2="0" width="4572" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000dc1100006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_olist_customers_dataset" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="6020" top="0" logicalid="22" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_product_category_name_translation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="39707" top="-4604" logicalid="23" controlid="10" masterid="0" hint1="0" hint2="0" width="3177" height="6327" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[olist_customers_dataset-olist_order_dataset]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="8" sourceattachpoint="23" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="40007" y="1323" />
+              <point x="41507" y="1323" />
+              <point x="41507" y="-4304" />
+              <point x="42584" y="-4304" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="34730" top="-4142" logicalid="24" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="4642" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[olist_order_reviews_dataset-olist_order_dataset]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="0" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="35129" y="0" />
+              <point x="35129" y="-1921" />
+              <point x="35186" y="-1921" />
+              <point x="35186" y="-3842" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="39229" top="3447" logicalid="25" controlid="12" masterid="0" hint1="0" hint2="0" width="2063" height="2739" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[olist_order_dataset-olist_order_items_dataset]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="0" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="40892" y="5686" />
+              <point x="40892" y="4717" />
+              <point x="39529" y="4717" />
+              <point x="39529" y="3747" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="39707" top="-210" logicalid="26" controlid="13" masterid="0" hint1="0" hint2="0" width="9687" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[olist_order_dataset-olist_order_payments_dataset]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="2" sourceattachpoint="20" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="49094" y="189" />
+              <point x="44551" y="189" />
+              <point x="44551" y="223" />
+              <point x="40007" y="223" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>25439</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-16862</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>6020</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-7229</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>35</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="9499e3a2-adb0-4a20-b980-653742653f31">
+      <ID>Olist Customers Dataset</ID>
+      <Name>Olist Customers Dataset</Name>
+      <DimensionID>Olist Customers Dataset</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7ebbe494-30db-4e9c-8a39-8a5251268252">
+          <AttributeID>Customer Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c09c44ae-ef7c-4442-bf6b-d1dfd66c3501">
+          <AttributeID>Customer Unique Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="42107da8-5a11-4de1-88a5-fabba8a3123a">
+          <AttributeID>Customer Zip Code Prefix</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ccfa35a-232c-45e7-88aa-d17d04fdc6d4">
+          <AttributeID>Customer City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5e5c4430-d839-4fd4-a050-6f855c271323">
+          <AttributeID>Customer State</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="6612f8eb-1f6e-4137-81ff-5fdb3059f6ef">
+      <ID>Olist Geolocation Dataset</ID>
+      <Name>Olist Geolocation Dataset</Name>
+      <DimensionID>Olist Geolocation Dataset</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d2c1b127-02ac-4caf-b047-e23a236890b4">
+          <AttributeID>Geolocation Zip Code Prefix</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ec6867ca-6c2e-4283-9517-13a4d1663a6c">
+          <AttributeID>Geolocation Lat</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a81d0ba7-df9a-4cc4-b126-322c98b5d9fa">
+          <AttributeID>Geolocation Lng</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4bf1faae-ee18-4af5-abde-ceb7f6a2ec86">
+          <AttributeID>Geolocation City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6c29c4af-a8f8-461b-8ff3-c2f4eb8ac847">
+          <AttributeID>Geolocation State</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a4097464-a791-43dc-8c18-d2920ea6c612">
+      <ID>Olist Order Dataset</ID>
+      <Name>Olist Order Dataset</Name>
+      <DimensionID>Olist Order Dataset</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="595e2fed-2b52-43db-b1a0-1d54044fb746">
+          <AttributeID>Order Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bd1facd3-32bd-4a8f-8e67-ed6dc8aac65a">
+          <AttributeID>Order Approved At</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="30c057c5-7f0f-484b-a2c2-e05c693c2106">
+          <AttributeID>Customer Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fc8a85af-0232-4416-8533-0039fd42880e">
+          <AttributeID>Order Id 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="73a27a4b-d61a-40b9-ae4b-876c1f407ef2">
+          <AttributeID>Order Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0b7efc71-9c51-4796-9d7e-321c8e78c03f">
+          <AttributeID>Order Purchase Timestamp</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a43b583-2f61-4ede-9609-f68a6adad4b4">
+          <AttributeID>Order Delivered Carrier Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6abfaeec-0b99-4c6a-a674-899fe88c5dec">
+          <AttributeID>Order Delivered Customer Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b8949f44-7931-4647-874d-9ee94e865cca">
+          <AttributeID>Order Estimated Delivery Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="53b92442-10a6-47c5-a650-27997f28ffe0">
+      <ID>Olist Order Items Dataset</ID>
+      <Name>Olist Order Items Dataset</Name>
+      <DimensionID>Olist Order Items Dataset</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2b306bcb-028e-4b38-9af4-594ebc493cd0">
+          <AttributeID>Order Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f615bf4e-b7cf-4da8-9db9-4f942b6e49a4">
+          <AttributeID>Order Item Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b35b348-f7f0-42db-a8bf-1686962d24ac">
+          <AttributeID>Product Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b4c6b60c-f0d9-48a5-a8b7-c68de9952bb5">
+          <AttributeID>Seller Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="274fbec9-78c3-40cd-8227-0aa1aa2dc409">
+          <AttributeID>Shipping Limit Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="54843d6a-3b66-45c2-b8a8-67de528b3659">
+          <AttributeID>Price</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5daf171e-21b0-444e-8feb-80b43e3e698e">
+          <AttributeID>Freight Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b9b90ada-f2e6-4dbf-8cf9-2ee6b7c7a6e0">
+      <ID>Olist Order Payments Dataset</ID>
+      <Name>Olist Order Payments Dataset</Name>
+      <DimensionID>Olist Order Payments Dataset</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="012a01a8-c5c4-4b9f-9c07-00c68f0f4af3">
+          <AttributeID>Order Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f39d4a4-3685-4763-8488-513331d12c20">
+          <AttributeID>Payment Sequential</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="01df27bb-2c18-463e-8ba7-a4ee7a48d36f">
+          <AttributeID>Payment Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b22dbab-ff7e-4eb2-810e-4d143021a93b">
+          <AttributeID>Payment Installments</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4810cdaf-68f5-4312-88e3-8046677785a3">
+          <AttributeID>Payment Value</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="2f409b9d-f3a7-4c0c-beed-1f75a9fc10dc">
+      <ID>Olist Order Reviews Dataset</ID>
+      <Name>Olist Order Reviews Dataset</Name>
+      <DimensionID>Olist Order Reviews Dataset</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6d286524-3f1a-4474-843b-ebc24de5afa0">
+          <AttributeID>Review Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7e302e0-21e5-4232-a4fe-578fe1078a31">
+          <AttributeID>Order Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2fd7dda5-8eeb-4cd9-997b-5232537afde0">
+          <AttributeID>Review Score</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f48e74e6-4968-4a86-85ce-3347474f9201">
+          <AttributeID>Review Comment Title</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f112cc7-7954-4a5e-9d3d-f17b33b22341">
+          <AttributeID>Review Creation Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b382ff67-6228-40ea-9a2c-056f47d35acc">
+          <AttributeID>Review Answer Timestamp</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7571851b-b7e9-4a2c-9aa0-23e2c1a1832a">
+      <ID>Olist Products Dataset</ID>
+      <Name>Olist Products Dataset</Name>
+      <DimensionID>Olist Products Dataset</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bd98c1e7-6c4d-4212-ae1b-022675d6b575">
+          <AttributeID>Product Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0ceab421-7d89-4f08-bb97-e57458594ea5">
+          <AttributeID>Product Category Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b473ff9-6f3c-49b0-b052-9a3e6a245cae">
+          <AttributeID>Product Name Lenght</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2b313f05-fbd6-4622-83df-d33379602666">
+          <AttributeID>Product Description Lenght</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9094e5a9-69b9-4dcd-80fc-2e0f721868c1">
+          <AttributeID>Product Photos Qty</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8a301f84-0537-4e39-a06f-009020bfe595">
+          <AttributeID>Product Weight G</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d9888da3-a782-4b64-b2ad-463d7e141d4b">
+          <AttributeID>Product Length Cm</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fd1ef7ee-18f0-43a1-8dcc-e1802f7c666d">
+          <AttributeID>Product Height Cm</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="946c330d-7b60-405f-b918-47cebd7d8e4d">
+          <AttributeID>Product Width Cm</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c345be28-726f-431a-a1ca-3513cfe0c6b8">
+      <ID>Product Category Name Translation</ID>
+      <Name>Product Category Name Translation</Name>
+      <DimensionID>Product Category Name Translation</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3add1ec9-e85f-4598-bdd7-d12e99f3ea1f">
+          <AttributeID>Column1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c0b0efe0-ec3d-4ef5-8f33-6eb1579b95f8">
+          <AttributeID>Column2</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="84070ce0-bd08-4262-878c-8f4178154c48">
+      <ID>Olist Sellers Dataset</ID>
+      <Name>Olist Sellers Dataset</Name>
+      <DimensionID>Olist Sellers Dataset</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="00a75d28-7b26-4666-a13b-abe031360f1b">
+          <AttributeID>Seller Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b0a71426-10a9-480b-8094-fcd96a831736">
+          <AttributeID>Seller Zip Code Prefix</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e011c7d0-4147-495f-9fd5-53ee2a2e6e7f">
+          <AttributeID>Seller City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="84ac8faa-3fd8-4c55-996a-449d7c798030">
+          <AttributeID>Seller State</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="331138db-01d7-4d0e-a3ce-3130933efc10">
+      <ID>Olist Customers Dataset</ID>
+      <Name>Olist Customers Dataset</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ce43438e-eec7-4420-9708-ad44ffb9b2d3">
+          <ID>Customer Zip Code Prefix</ID>
+          <Name>Customer Zip Code Prefix</Name>
+          <Source dwd:design-time-name="1ea4172f-3c01-4f65-8bff-30260e4a6ad5">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="81c05889-4ef9-4b21-ab99-d811a6417481">
+              <TableID>dbo_olist_customers_dataset</TableID>
+              <ColumnID>customer_zip_code_prefix</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3c30cb5e-289a-4ae4-8f6b-c9f9cbf3c4a5">
+          <ID>Olist Customers Dataset Count</ID>
+          <Name>Olist Customers Dataset Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="7854f4e5-c08f-4e04-a434-88b9f8d8827f">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="1aec7201-941b-4846-a17c-0453dfb9a730">
+              <TableID>dbo_olist_customers_dataset</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bf382628-510e-4593-ab12-f677a80a23fa">
+          <CubeDimensionID>Olist Customers Dataset</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4528b9ab-b4bd-4f9b-97a6-de861c1c9370">
+              <AttributeID>Customer Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f082c31c-ecdc-480d-a2a6-64a7b1d6a21d">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="846436bd-8c3e-48fd-a25f-62a46d1a77d4">
+                    <TableID>dbo_olist_customers_dataset</TableID>
+                    <ColumnID>customer_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="753dc424-777b-47fe-ac97-97b37238fd01">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="070bf874-a25c-402d-8745-e9c15a22e7cf">
+                    <TableID>dbo_olist_customers_dataset</TableID>
+                    <ColumnID>customer_unique_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="55c717a5-e3dd-4076-bbc3-1b736fab0663">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c7366b37-b576-490b-a1e2-feacd5cd8300">
+                    <TableID>dbo_olist_customers_dataset</TableID>
+                    <ColumnID>customer_zip_code_prefix</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="25719c52-7f0d-4710-921b-ddedd4da990e">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="73468497-2d1d-4d07-80a3-1eb75ed7672a">
+                    <TableID>dbo_olist_customers_dataset</TableID>
+                    <ColumnID>customer_city</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="227b7949-2a9e-448f-b7cd-4e15cda7cb24">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d733275f-d074-4a65-a10d-d560064a31de">
+                    <TableID>dbo_olist_customers_dataset</TableID>
+                    <ColumnID>customer_state</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="380d2dbf-87ce-499a-9f1f-2ff66e72a8e9">
+      <ID>Olist Geolocation Dataset</ID>
+      <Name>Olist Geolocation Dataset</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e73b0b03-1190-4eaa-9f0a-e1307e7ca5b1">
+          <ID>Geolocation Zip Code Prefix</ID>
+          <Name>Geolocation Zip Code Prefix</Name>
+          <Source dwd:design-time-name="d1e58fb3-55ab-432f-a09a-bcf751cc46b7">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a1404037-ccf5-43ff-b94c-f00114cc96bd">
+              <TableID>dbo_olist_geolocation_dataset</TableID>
+              <ColumnID>geolocation_zip_code_prefix</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dca406fd-a6ea-430b-97bb-c75948badecc">
+          <ID>Geolocation Lat</ID>
+          <Name>Geolocation Lat</Name>
+          <Source dwd:design-time-name="6ad185b2-00a5-46fb-9ce0-25a829b50e80">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="866371e6-ece1-4da0-8fbe-d701c1e7afa1">
+              <TableID>dbo_olist_geolocation_dataset</TableID>
+              <ColumnID>geolocation_lat</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e9ab0824-5df5-4e4a-a9f6-f0e8d005f663">
+          <ID>Geolocation Lng</ID>
+          <Name>Geolocation Lng</Name>
+          <Source dwd:design-time-name="04fc6154-2902-43bf-8998-8336ba9625fc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="55d2564a-8f60-4325-8266-60e9cd6b381f">
+              <TableID>dbo_olist_geolocation_dataset</TableID>
+              <ColumnID>geolocation_lng</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="23ba6b4f-2028-4391-b2a0-708b2d50ff2f">
+          <ID>Olist Geolocation Dataset Count</ID>
+          <Name>Olist Geolocation Dataset Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="3730f74d-9133-415d-8abe-329550850572">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="cd1bc2b0-3653-4f6e-b3c3-fcd5bc866150">
+              <TableID>dbo_olist_geolocation_dataset</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5470d0d4-a742-4ee0-9f61-5054f8354b4f">
+          <CubeDimensionID>Olist Geolocation Dataset</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a58d25ae-8fe8-4b6b-9ef1-498a7b2ba6a6">
+              <AttributeID>Geolocation Zip Code Prefix</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="56cf60f9-2416-4010-8cf1-317fa9080b54">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b81278f6-7c1b-4e2e-ba5d-a05630ef6cae">
+                    <TableID>dbo_olist_geolocation_dataset</TableID>
+                    <ColumnID>geolocation_zip_code_prefix</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="111de49f-6acd-4ecd-a6c5-bb23c463ecb6">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5337deef-77e4-4c38-9707-52e2ee1f6e8e">
+                    <TableID>dbo_olist_geolocation_dataset</TableID>
+                    <ColumnID>geolocation_lat</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="4b21197f-542c-45ae-9804-ce6c9af5d0d6">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ee62c417-f781-4879-a50f-2caf103240e5">
+                    <TableID>dbo_olist_geolocation_dataset</TableID>
+                    <ColumnID>geolocation_lng</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="57609812-c254-441b-8bd0-d4ee89d18d56">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bf40be3f-6e94-4772-89b4-01c1973c02b6">
+                    <TableID>dbo_olist_geolocation_dataset</TableID>
+                    <ColumnID>geolocation_city</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="3b86fa56-14c5-4904-9d6c-9568bf6d5f8e">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5e63ae93-abfe-4375-a76c-e511362dddf9">
+                    <TableID>dbo_olist_geolocation_dataset</TableID>
+                    <ColumnID>geolocation_state</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="bd3f1962-e6f3-4be0-8e0c-38a63b314422">
+      <ID>Olist Order Dataset</ID>
+      <Name>Olist Order Dataset</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="99634e0b-02fa-427d-aa63-18c77ccb7eb0">
+          <ID>Olist Order Dataset Count</ID>
+          <Name>Olist Order Dataset Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="7e46654b-061e-4a15-8a3d-64f67dfabcf4">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="9887f11c-8ec6-421c-9fa5-db5de0240d6e">
+              <TableID>dbo_olist_order_dataset</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9792a704-fe5b-49c6-abd5-893bf107a600">
+          <CubeDimensionID>Olist Order Dataset</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="98aefff4-9c23-44b0-a644-e4c280eb5b01">
+              <AttributeID>Order Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="460655be-4df1-45f2-85f1-0b43d0d11f97">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f0c3d603-c73e-4258-a46d-8003d3d17a96">
+                    <TableID>dbo_olist_order_dataset</TableID>
+                    <ColumnID>order_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="4ce8755d-8cd3-4890-9d9f-c0be31b6a1f7">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f9a4b4be-7662-4eb1-a685-cf16e8f22bbf">
+                    <TableID>dbo_olist_order_dataset</TableID>
+                    <ColumnID>customer_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5cb3f05e-ad21-47ac-836e-337f12ab1cf4">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5c952132-5de9-4220-af51-7a92d3db03f5">
+                    <TableID>dbo_olist_order_dataset</TableID>
+                    <ColumnID>order_status</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="0196a923-70a7-49c6-b76b-91c894fc1fd6">
+                  <DataType>WChar</DataType>
+                  <DataSize>27</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d05fbf95-2cba-4407-a2c6-23d218373517">
+                    <TableID>dbo_olist_order_dataset</TableID>
+                    <ColumnID>order_purchase_timestamp</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="9bccbdd1-bd83-4032-abd5-42fb16464089">
+                  <DataType>WChar</DataType>
+                  <DataSize>27</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ff8c886e-0e0b-49e4-af13-6249822bb648">
+                    <TableID>dbo_olist_order_dataset</TableID>
+                    <ColumnID>order_approved_at</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="8f42332a-d7be-47ec-9253-7a1c1206370d">
+                  <DataType>WChar</DataType>
+                  <DataSize>27</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="373aa681-5abd-431d-9ce8-6de12ae173f4">
+                    <TableID>dbo_olist_order_dataset</TableID>
+                    <ColumnID>order_delivered_carrier_date</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="57116360-1a6f-4562-b1b6-7f849712f01c">
+                  <DataType>WChar</DataType>
+                  <DataSize>27</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0f947f08-9b00-4567-8778-1bd35e3629ef">
+                    <TableID>dbo_olist_order_dataset</TableID>
+                    <ColumnID>order_delivered_customer_date</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="7c2995ce-abc0-4738-aa81-34be984cde02">
+                  <DataType>WChar</DataType>
+                  <DataSize>27</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="10c492b1-08d4-455c-a3ce-af263505b507">
+                    <TableID>dbo_olist_order_dataset</TableID>
+                    <ColumnID>order_estimated_delivery_date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="6a4ba3e0-e317-4dfe-bea5-b8c53035b29c">
+      <ID>Olist Order Items Dataset</ID>
+      <Name>Olist Order Items Dataset</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7924f818-7562-4b58-825c-f40888b95aee">
+          <ID>Order Item Id</ID>
+          <Name>Order Item Id</Name>
+          <Source dwd:design-time-name="7f77b873-06df-4362-884c-494b2ea2a3a3">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4caaaef0-f6dd-431a-8e6b-2576d3bedcfe">
+              <TableID>dbo_olist_order_items_dataset</TableID>
+              <ColumnID>order_item_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6abe8741-501b-441f-85bd-aa0f57dd4d6d">
+          <ID>Price</ID>
+          <Name>Price</Name>
+          <Source dwd:design-time-name="0a33da81-c3d4-434e-ae7c-89f74e669c41">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8b24ddc8-742f-4e75-bba4-b1b75d8624da">
+              <TableID>dbo_olist_order_items_dataset</TableID>
+              <ColumnID>price</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fe882700-2089-4076-b64b-228b399c8007">
+          <ID>Freight Value</ID>
+          <Name>Freight Value</Name>
+          <Source dwd:design-time-name="d74f2fd7-190d-4c53-94ba-cbaaaf8f891d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="36ac70a6-2f0b-4431-97c1-dac6efba55e9">
+              <TableID>dbo_olist_order_items_dataset</TableID>
+              <ColumnID>freight_value</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6b10be67-2f36-4921-b339-48a1d678122d">
+          <ID>Olist Order Items Dataset Count</ID>
+          <Name>Olist Order Items Dataset Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="db5415a8-40b0-42e1-8838-2c9bfad6d256">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="c54a8414-5b0b-428f-9bab-e72bae578b68">
+              <TableID>dbo_olist_order_items_dataset</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b5973b14-a965-44a4-bdc7-290d9309380b">
+          <CubeDimensionID>Olist Order Items Dataset</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="af812c14-588b-4316-90eb-e992bc4856fc">
+              <AttributeID>Order Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b0632a93-bfd7-4ea3-9af1-a372ca30f606">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="369a411a-0eb9-4410-86b0-7feed36baa9b">
+                    <TableID>dbo_olist_order_items_dataset</TableID>
+                    <ColumnID>order_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="6b5d36dd-76c7-49b4-87e6-910c47325518">
+                  <DataType>UnsignedTinyInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="08c23df3-6388-4ee3-afb6-be64432d6091">
+                    <TableID>dbo_olist_order_items_dataset</TableID>
+                    <ColumnID>order_item_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5b98dbb9-6b99-4a21-afc9-cc4884c3adc0">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="788ab730-a39d-493a-ae18-dc4829646ba5">
+                    <TableID>dbo_olist_order_items_dataset</TableID>
+                    <ColumnID>product_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="d46fecc8-0e9c-4693-9db3-c547915d9436">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2e0fb9e6-f48a-4e11-9785-7600ee14b3cb">
+                    <TableID>dbo_olist_order_items_dataset</TableID>
+                    <ColumnID>seller_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="4bae195b-29ff-4a59-b59b-6c0f0c94e4fe">
+                  <DataType>WChar</DataType>
+                  <DataSize>27</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9b8e809c-c4af-4984-86c7-995ab8fea9ef">
+                    <TableID>dbo_olist_order_items_dataset</TableID>
+                    <ColumnID>shipping_limit_date</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="707819cc-66d2-479b-bb98-43abbb6e1b12">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="81cc1a4b-db5d-4605-a385-1cc7cef14ab7">
+                    <TableID>dbo_olist_order_items_dataset</TableID>
+                    <ColumnID>price</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="82368833-1857-4c82-b9ba-aec42bae32d5">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7bd89108-da0a-4b3a-a538-375a464ac1aa">
+                    <TableID>dbo_olist_order_items_dataset</TableID>
+                    <ColumnID>freight_value</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="270a1bc5-8fb2-4335-834f-e59194f716af">
+      <ID>Olist Order Payments Dataset</ID>
+      <Name>Olist Order Payments Dataset</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ca7fdde5-6977-4538-929d-7ebd561f630c">
+          <ID>Payment Sequential</ID>
+          <Name>Payment Sequential</Name>
+          <Source dwd:design-time-name="f770a1da-bdb3-4bad-bb8f-95d0d49d6928">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="acdc6716-0a8e-404b-9c3d-62207dbfbb9a">
+              <TableID>dbo_olist_order_payments_dataset</TableID>
+              <ColumnID>payment_sequential</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0042f0cf-306c-46be-a482-ea31c67e8916">
+          <ID>Payment Installments</ID>
+          <Name>Payment Installments</Name>
+          <Source dwd:design-time-name="21ea030e-764d-4033-8d9b-58f3477fb949">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4363e842-1c16-43ea-b021-1a5cd79f59ae">
+              <TableID>dbo_olist_order_payments_dataset</TableID>
+              <ColumnID>payment_installments</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5acd4ea0-5137-4d4e-b0fb-5b87b3b267c5">
+          <ID>Payment Value</ID>
+          <Name>Payment Value</Name>
+          <Source dwd:design-time-name="96090144-16fa-4420-adf7-9bdfd53b1fec">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1aa4342d-f4ec-42d1-a627-1b0eef57f2e0">
+              <TableID>dbo_olist_order_payments_dataset</TableID>
+              <ColumnID>payment_value</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="253355d8-a4b3-4f5f-a1f2-70871c69417c">
+          <ID>Olist Order Payments Dataset Count</ID>
+          <Name>Olist Order Payments Dataset Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="453e2f56-252f-46e1-ac83-c38c2a23597c">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="5b3022e0-4a87-41bd-870f-10df8c3d470a">
+              <TableID>dbo_olist_order_payments_dataset</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b8cbfaad-6f57-4ab2-87f4-92108814c80b">
+          <CubeDimensionID>Olist Order Payments Dataset</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f532b163-4851-41fd-bed8-87adf9ba92e9">
+              <AttributeID>Order Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="def8c809-4b17-4e53-bb41-fea1fb9a773a">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="603ea326-63b3-401e-b0ab-ebfcf767ac9e">
+                    <TableID>dbo_olist_order_payments_dataset</TableID>
+                    <ColumnID>order_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5567de25-0e4a-4a8d-9385-6a15c38e2c61">
+                  <DataType>UnsignedTinyInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9ace1e24-3a6c-4fde-b67f-7ad0b23ba102">
+                    <TableID>dbo_olist_order_payments_dataset</TableID>
+                    <ColumnID>payment_sequential</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="dc27008c-94c4-44c8-b4c8-78c24659ff74">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7f77ee59-332e-4aba-9614-9fb21095fa5b">
+                    <TableID>dbo_olist_order_payments_dataset</TableID>
+                    <ColumnID>payment_type</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="84a41b4b-0b6c-4ff4-8bad-b9ac3cac0f2c">
+                  <DataType>UnsignedTinyInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1504bf3e-f520-4629-90db-f77c3aba0b1f">
+                    <TableID>dbo_olist_order_payments_dataset</TableID>
+                    <ColumnID>payment_installments</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="31b72eac-db6e-4272-b5da-68cd47087c12">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aeb7f94b-8e93-4bbf-ae65-2787a87bb914">
+                    <TableID>dbo_olist_order_payments_dataset</TableID>
+                    <ColumnID>payment_value</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="01d2d287-e5a2-47e4-82f8-00c6df9f4855">
+      <ID>Olist Order Reviews Dataset</ID>
+      <Name>Olist Order Reviews Dataset</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="81bf7656-588b-43d4-a361-f6981507f7db">
+          <ID>Review Score</ID>
+          <Name>Review Score</Name>
+          <Source dwd:design-time-name="3a9111c0-ab74-4cc3-b166-2447f1b94533">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="12ba1bc3-77f6-43c9-9db7-4f766ed9dc20">
+              <TableID>dbo_olist_order_reviews_dataset</TableID>
+              <ColumnID>review_score</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="40b39db3-cc14-4348-b4b7-a6a1a9ecbebb">
+          <ID>Olist Order Reviews Dataset Count</ID>
+          <Name>Olist Order Reviews Dataset Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="eb843ab6-8091-4d51-bb33-a5b7717912fa">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="c11100c6-f1bb-47d0-a3d4-1f53c96cf8da">
+              <TableID>dbo_olist_order_reviews_dataset</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8f490799-a8c5-46fb-a591-34664a83c61e">
+          <CubeDimensionID>Olist Order Reviews Dataset</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5fd5d704-190d-4564-98b2-2713c814e619">
+              <AttributeID>Review Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b3493937-1871-4ac4-bf90-131ef031753a">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="372d23ec-8aa1-40cb-bd47-8eecb2ceaec9">
+                    <TableID>dbo_olist_order_reviews_dataset</TableID>
+                    <ColumnID>review_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="a6cea875-0212-49ee-8516-ce40567ff505">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6f30c9f2-8c26-4325-880f-ced5916ac426">
+                    <TableID>dbo_olist_order_reviews_dataset</TableID>
+                    <ColumnID>order_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="97323c2c-3ae7-4440-a01d-c3e508d9ccf3">
+                  <DataType>UnsignedTinyInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="10722f02-7a9c-48a6-9581-2a8201afd656">
+                    <TableID>dbo_olist_order_reviews_dataset</TableID>
+                    <ColumnID>review_score</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="aaa16f0f-5f91-4c86-bd62-ba44a3010547">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0ac30371-1ade-4f31-98f9-ca8c25f4f084">
+                    <TableID>dbo_olist_order_reviews_dataset</TableID>
+                    <ColumnID>review_comment_title</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="6fc93bd5-031d-4aaa-8b85-75e00376ac54">
+                  <DataType>WChar</DataType>
+                  <DataSize>250</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="eadde133-d01c-4beb-9fc6-6dfe9fd47e49">
+                    <TableID>dbo_olist_order_reviews_dataset</TableID>
+                    <ColumnID>review_comment_message</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="2cdf87d4-22a7-47d5-bf29-8eac19b9e427">
+                  <DataType>WChar</DataType>
+                  <DataSize>27</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="eff67abd-326c-4ab5-a88b-b772f401ee86">
+                    <TableID>dbo_olist_order_reviews_dataset</TableID>
+                    <ColumnID>review_creation_date</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="68930a14-48e2-45a3-8973-d67f631cb911">
+                  <DataType>WChar</DataType>
+                  <DataSize>27</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8fd7e0d1-a1d6-42c0-9003-27eb88032d92">
+                    <TableID>dbo_olist_order_reviews_dataset</TableID>
+                    <ColumnID>review_answer_timestamp</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="e365898f-88e5-4a98-8fbc-8626f486746f">
+      <ID>Olist Products Dataset</ID>
+      <Name>Olist Products Dataset</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="37c4014e-86e4-4739-a80e-3fe32df1ffc3">
+          <ID>Product Name Lenght</ID>
+          <Name>Product Name Lenght</Name>
+          <Source dwd:design-time-name="feff0792-02ba-4b74-bbd5-175352503be9">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4b630378-c191-4e99-a2ea-6e499a854ceb">
+              <TableID>dbo_olist_products_dataset</TableID>
+              <ColumnID>product_name_lenght</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cb537eb7-866b-4616-9eb5-c3f158be7675">
+          <ID>Product Description Lenght</ID>
+          <Name>Product Description Lenght</Name>
+          <Source dwd:design-time-name="afe21ad7-c213-48aa-b231-ad124bc84562">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2d15d53a-9305-4829-be84-cf6d4d33d445">
+              <TableID>dbo_olist_products_dataset</TableID>
+              <ColumnID>product_description_lenght</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="17877d6b-1f6d-4a11-8bef-25e71256a66a">
+          <ID>Product Weight G</ID>
+          <Name>Product Weight G</Name>
+          <Source dwd:design-time-name="adda14a7-7154-47a1-9dbb-85575f746a9f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="02b92920-ef86-48f0-a387-d4aaaef9e2df">
+              <TableID>dbo_olist_products_dataset</TableID>
+              <ColumnID>product_weight_g</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="79077f9c-223a-41b9-89c4-8f2f48569e66">
+          <ID>Product Length Cm</ID>
+          <Name>Product Length Cm</Name>
+          <Source dwd:design-time-name="7021da6d-7d67-47bf-99e9-467625980cb7">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d4d7a541-d6d5-48c2-ae9e-49db0f03568c">
+              <TableID>dbo_olist_products_dataset</TableID>
+              <ColumnID>product_length_cm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c2a69187-3e93-4012-92ab-05f432f70ad6">
+          <ID>Product Height Cm</ID>
+          <Name>Product Height Cm</Name>
+          <Source dwd:design-time-name="1b0539e5-6095-4723-b145-897a6ad784f8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bb695f1e-0c21-4b86-a66d-61f082705850">
+              <TableID>dbo_olist_products_dataset</TableID>
+              <ColumnID>product_height_cm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="40637376-f3da-4c20-b922-7c5b87b7d8fb">
+          <ID>Product Width Cm</ID>
+          <Name>Product Width Cm</Name>
+          <Source dwd:design-time-name="5a8e61fe-a510-433d-8216-7daa1a215580">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c07dd4ce-92c9-42a6-ad6e-eb7be0f648b5">
+              <TableID>dbo_olist_products_dataset</TableID>
+              <ColumnID>product_width_cm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="79a99d2f-d08d-49c3-855e-d3f1ef0be391">
+          <ID>Olist Products Dataset Count</ID>
+          <Name>Olist Products Dataset Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="39550a5a-33e8-4312-80a7-7bc0b4da52f8">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="41a42b5d-454b-4b1c-9583-b0d9578b33c0">
+              <TableID>dbo_olist_products_dataset</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="74c1dbae-eddc-45e7-899a-a454bc0062e1">
+          <CubeDimensionID>Olist Products Dataset</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d72be9e7-f072-4f8d-a5ce-2478c0f57f26">
+              <AttributeID>Product Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="36bfa6c2-c4a6-418c-b584-af77097712d2">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f5a8b2df-28c6-4734-b052-6d3c1b7a5d5f">
+                    <TableID>dbo_olist_products_dataset</TableID>
+                    <ColumnID>product_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="cfdd383e-eb9f-48b0-8e73-e6e13aa202d4">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d5c560a7-b4ad-4b86-8c98-47b50f3305e0">
+                    <TableID>dbo_olist_products_dataset</TableID>
+                    <ColumnID>product_category_name</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f50313a7-19c4-4d59-998b-9004e0ea3dbd">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d6730c74-c86b-49b0-a3f1-514f74359d2c">
+                    <TableID>dbo_olist_products_dataset</TableID>
+                    <ColumnID>product_name_lenght</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="cbf265db-3705-4d7b-bc44-484de71e61a6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2184eaa4-d51e-4fb6-8e29-2c1a58c6873d">
+                    <TableID>dbo_olist_products_dataset</TableID>
+                    <ColumnID>product_description_lenght</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="43add446-634e-47e0-933f-872fc2a54d71">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cb0229aa-775e-4817-bb0a-9423c00dc819">
+                    <TableID>dbo_olist_products_dataset</TableID>
+                    <ColumnID>product_photos_qty</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="b4300f65-3708-4120-adc5-6ae20e8fdb0d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="91aaf490-4211-442c-ab6c-9914ea88488a">
+                    <TableID>dbo_olist_products_dataset</TableID>
+                    <ColumnID>product_weight_g</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="3bf56d43-f9c1-404c-812d-84f99059a88d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f568887f-9466-441a-b34b-4ff33d4d5e34">
+                    <TableID>dbo_olist_products_dataset</TableID>
+                    <ColumnID>product_length_cm</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="9be3f060-65c0-490d-be01-a90c130e24d5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="380e2516-e835-40d4-a046-8ae2b7cfd667">
+                    <TableID>dbo_olist_products_dataset</TableID>
+                    <ColumnID>product_height_cm</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="d8bdd228-99e1-47af-b912-ba0210443cb5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="84676638-4873-4fd3-b02d-cd3ae378ba19">
+                    <TableID>dbo_olist_products_dataset</TableID>
+                    <ColumnID>product_width_cm</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="a6e540fc-1df8-4aee-8810-105f3f95f3c1">
+      <ID>Product Category Name Translation</ID>
+      <Name>Product Category Name Translation</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7878b775-9aa0-47cc-bb94-71e778d4f336">
+          <ID>Product Category Name Translation Count</ID>
+          <Name>Product Category Name Translation Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="60e28700-2afa-45d4-b6f2-a4aae2286281">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="4f720093-94b9-4a6a-8940-a4cf026adfc2">
+              <TableID>dbo_product_category_name_translation</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1c230f62-984e-4ef3-818e-d482a371e24d">
+          <CubeDimensionID>Product Category Name Translation</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f794c74b-8d78-494c-abef-be58581e9bd2">
+              <AttributeID>Column1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="34763b54-64d3-42b9-8e9f-6234d3ab0338">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f72574b2-083a-4bc9-88a4-0b4bc4978ffc">
+                    <TableID>dbo_product_category_name_translation</TableID>
+                    <ColumnID>column1</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="35ffad82-4ff4-4083-aa35-8dc2d0ff8a29">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="afcd0727-96ce-4082-9bff-e0d97b2eaa5c">
+                    <TableID>dbo_product_category_name_translation</TableID>
+                    <ColumnID>column2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="528b2d47-ad1c-4477-b737-fe954b42084e">
+      <ID>Olist Sellers Dataset</ID>
+      <Name>Olist Sellers Dataset</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="fd63e5d3-e871-4f54-a07d-8b09d044dfe3">
+          <ID>Seller Zip Code Prefix</ID>
+          <Name>Seller Zip Code Prefix</Name>
+          <Source dwd:design-time-name="1bc9c9ad-aac2-40d4-8405-466c40f7b38d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bc5f7ebe-4033-4452-8243-14f96b69c1bd">
+              <TableID>dbo_olist_sellers_dataset</TableID>
+              <ColumnID>seller_zip_code_prefix</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8686089a-0745-42d0-b2e4-e9c160aebb2c">
+          <ID>Olist Sellers Dataset Count</ID>
+          <Name>Olist Sellers Dataset Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="01521359-f363-4e69-b6a9-04be14c51229">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="deb33cc3-c1b9-4a5d-94fa-145d4d9387f6">
+              <TableID>dbo_olist_sellers_dataset</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6892991e-a558-4882-a025-92a9150647f7">
+          <CubeDimensionID>Olist Sellers Dataset</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d359ebdf-e2e7-4499-b5f5-afe4e8a77e22">
+              <AttributeID>Seller Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="67b5a103-fcca-455b-9c80-afad80ee3880">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e9e909ec-9a66-4e75-96c1-ea34df0af952">
+                    <TableID>dbo_olist_sellers_dataset</TableID>
+                    <ColumnID>seller_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="45b9f6ec-d3ba-4624-8f4e-79422e96d791">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7c7d99f9-5bdd-4188-8f87-d93d20de2d0c">
+                    <TableID>dbo_olist_sellers_dataset</TableID>
+                    <ColumnID>seller_zip_code_prefix</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c9aabce0-1a1d-468f-a526-ad6789d916dc">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="732e444b-196d-486d-adc9-66cba184aace">
+                    <TableID>dbo_olist_sellers_dataset</TableID>
+                    <ColumnID>seller_city</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5e026c36-ae0a-47b1-90d6-3a3b9dea8e3e">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="124496f5-ed6e-46e5-b1fe-fa56842bf159">
+                    <TableID>dbo_olist_sellers_dataset</TableID>
+                    <ColumnID>seller_state</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="47b9fbb6-47b7-4092-9963-2336d159c82b">
+    <DataSourceViewID>Olist DB</DataSourceViewID>
+  </Source>
+</Cube>
